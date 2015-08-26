@@ -1,0 +1,60 @@
+PODS:
+  - AKPickerView-Swift (0.2.3)
+  - Google/Core (1.0.7):
+    - GoogleNetworkingUtilities (~> 1.0)
+    - GoogleSymbolUtilities (~> 1.0)
+    - GoogleUtilities (~> 1.0)
+  - Google/SignIn (1.0.7):
+    - Google/Core
+    - GoogleSignIn (~> 2.0)
+  - GoogleAppUtilities (1.0.0):
+    - GoogleSymbolUtilities (~> 1.0)
+  - GoogleAuthUtilities (1.0.1):
+    - GoogleNetworkingUtilities (~> 1.0)
+    - GoogleSymbolUtilities (~> 1.0)
+  - GoogleNetworkingUtilities (1.0.0):
+    - GoogleSymbolUtilities (~> 1.0)
+  - GoogleSignIn (2.2.0):
+    - GoogleAppUtilities (~> 1)
+    - GoogleAuthUtilities (~> 1)
+    - GoogleNetworkingUtilities (~> 1)
+    - GoogleUtilities (~> 1)
+  - GoogleSymbolUtilities (1.0.0)
+  - GoogleUtilities (1.0.1):
+    - GoogleSymbolUtilities (~> 1.0)
+  - MaterialKit (0.3.5)
+
+DEPENDENCIES:
+  - AKPickerView-Swift (from `https://github.com/Akkyie/AKPickerView-Swift`, branch
+    `swift2.0`)
+  - Google/SignIn
+  - MaterialKit (from `https://github.com/mpclarkson/MaterialKit`, branch `swift2`)
+
+EXTERNAL SOURCES:
+  AKPickerView-Swift:
+    :branch: swift2.0
+    :git: https://github.com/Akkyie/AKPickerView-Swift
+  MaterialKit:
+    :branch: swift2
+    :git: https://github.com/mpclarkson/MaterialKit
+
+CHECKOUT OPTIONS:
+  AKPickerView-Swift:
+    :commit: b609695a39189c0c950880a8608e2bd92ed9209c
+    :git: https://github.com/Akkyie/AKPickerView-Swift
+  MaterialKit:
+    :commit: 00112398c9f6bf979377628bcb7a014986a007e4
+    :git: https://github.com/mpclarkson/MaterialKit
+
+SPEC CHECKSUMS:
+  AKPickerView-Swift: 5bcde46de3d029e721cd531495287fc66219c2b3
+  Google: 875f5a8ade86dd02e36586e4a54814843938c7f6
+  GoogleAppUtilities: c01c6a5671e9da8b9d690fdaec5959d6c2aac699
+  GoogleAuthUtilities: 049ffd3a297cdffd271451b82fd4e75304f15ef3
+  GoogleNetworkingUtilities: 292992ab31b7b4ba32809a0e8b40e324cdfb2c0c
+  GoogleSignIn: c45d8d1a873784a3283b4f47f331dc06d8a727b6
+  GoogleSymbolUtilities: a7b0feed1fe667c8d5e647177938d0ecd62d6948
+  GoogleUtilities: e3475cd4d45134221d2f3f3626095a1c49b62041
+  MaterialKit: 6f1e9382f89593df768bc0c31ded9952a6d8ad46
+
+COCOAPODS: 0.38.2
